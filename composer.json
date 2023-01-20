@@ -1,0 +1,19 @@
+{
+    "name": "ahas/php-jwt",
+    "description": "belajar jwt",
+    "type": "project",
+    "authors": [
+        {
+            "name": "ahastarin",
+            "email": "ahastarin@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "phpjwt\\" : "src/"
+        }
+    }, 
+    "require": {
+        "monolog/monolog" : "2.8.0"
+    }
+}
